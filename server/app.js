@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(regRouter);
 
 // Start server and listen on the specified port
-const PORT = 3000;
+const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
